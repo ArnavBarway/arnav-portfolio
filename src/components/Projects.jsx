@@ -7,7 +7,7 @@ const Projects = () => (
     <div className="project-grid">
       <div className="project-card">
         <h3>TSC Project</h3>
-        <p>A web application for managing tasks and projects.</p>
+        <p>A web application for a currency system.</p>
         <a href="http://tsc.is-best.net" target="_blank" rel="noopener noreferrer">
           View Project
         </a>
