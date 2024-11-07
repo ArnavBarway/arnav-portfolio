@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f3f4f6; /* Light gray background */
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Ensure full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+a {
+  color: #1e3a8a; /* Dark blue for links */
+}
+
+h1, h2, h3 {
+  color: #1e3a8a; /* Dark blue headers */
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb; /* Bright blue for buttons */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #1e40af; /* Darker blue on hover */
+}
+
+/* Section Styles */
+.about, .projects, .contact {
+  padding: 4rem 1rem;
+  text-align: center;
+  background-color: #ffffff; /* White for contrast */
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px; /* Centralize the content */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #1e3a8a; /* Dark blue footer */
+  color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+/* Projects Grid */
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: #f9fafb; /* Off-white background for cards */
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
