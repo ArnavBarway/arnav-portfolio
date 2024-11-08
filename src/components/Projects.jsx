@@ -3,7 +3,7 @@ import './Projects.css';
 
 const Projects = () => (
   <section id="projects" className="projects">
-    <h2>Projects</h2>
+    <h2><a href="https://github.com/ArnavBarway/">Projects</a></h2>
     <div className="project-grid">
       <div className="project-card">
         <h3>TSC Project</h3>
